@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Donegal+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+
+  .CentroXY{
+    height: 100vh;
+    background-color: #ebe5ce;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.esperandomenudorafael{
+    background-color: #8D1042;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  
+  }
+.esperandomenudorafael2{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+  
+  }
+
+  h6{
+    color: #640F3D;
+    font-size: 36px;
+    font-family: 'Donegal One', sans-serif;
+  }
+
+  .texto1{
+    color: #8D1042;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  
+
+  .bloco{
+    background-color: #fff;
+    font-size: 13px;
+    color: #640F3D;
+    font-family: 'Inter', sans-serif;
+    width: 284px;
+    height: 320px;
+    border-radius: 20.1px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+   
+  }
+
+  .pp{
+    margin-right: 170px;
+    font-size: 16px;
+    color: black ;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+  }
+
+
+
+  #email, #senha,#nome,#telefone,#cpf{
+    border-radius: 20px;
+    background-color: #EBE5CE;
+    width: 250px ;
+    height: 25px;
+    resize: none;
+    border: none;
+  }
+  
